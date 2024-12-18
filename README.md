@@ -1,5 +1,7 @@
 # `microbit-clock`
 
+https://github.com/user-attachments/assets/ecd1c3bd-c9be-4a5f-85b1-fe8aeee4a561
+
 A simple clock application for the BBC micro:bit. Deploy it to your connected micro:bit with:
 
 **`cargo run`**
