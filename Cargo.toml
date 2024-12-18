@@ -2,12 +2,32 @@
 name = "microbit-clock"
 version = "0.1.0"
 edition = "2021"
+authors = ["John Arundel <john@bitfieldconsulting.com>"]
+description = """
+A simple clock app for the BBC micro:bit.
+"""
+keywords = ["microbit", "clock"]
+categories = ["embedded", "no-std", "date-and-time"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+documentation = "https://docs.rs/microbit-clock"
+homepage = "https://github.com/bitfield/microbit-clock"
+repository = "https://github.com/bitfield/microbit-clock"
 
 [dependencies]
-
 embassy-futures = { version = "0.1", default-features = false }
-embassy-executor = { version = "0.5", default-features = false, features = ["integrated-timers", "defmt", "arch-cortex-m", "executor-thread", "executor-interrupt", "task-arena-size-32768"] }
-embassy-time = { version = "0.3", default-features = false, features = ["defmt-timestamp-uptime", "defmt"] }
+embassy-executor = { version = "0.5", default-features = false, features = [
+    "integrated-timers",
+    "defmt",
+    "arch-cortex-m",
+    "executor-thread",
+    "executor-interrupt",
+    "task-arena-size-32768",
+] }
+embassy-time = { version = "0.3", default-features = false, features = [
+    "defmt-timestamp-uptime",
+    "defmt",
+] }
 
 cortex-m-rt = "0.7"
 
