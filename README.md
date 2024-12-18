@@ -1,6 +1,6 @@
 # `microbit-clock`
 
-https://github.com/user-attachments/assets/ecd1c3bd-c9be-4a5f-85b1-fe8aeee4a561
+https://github.com/user-attachments/assets/4a148535-1a39-46e1-833d-e016c0e4a1ab
 
 A simple clock application for the BBC micro:bit. Deploy it to your connected micro:bit with:
 
